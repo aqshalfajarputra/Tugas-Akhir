@@ -1,0 +1,264 @@
+.carousel-inner img {
+  	width:100%;
+  	background-size:cover;
+  	min-height: 500px;
+  	display: block;
+
+  }
+.text{
+    text-align: justify;
+}
+
+.box{
+  background: #fff;
+    margin: 0 0 30px;
+    border: solid 1px #e6e6e6;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-with-text{
+    border: 1px;
+    transition: .25s;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    outline: 0;
+    width: 90%;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.judul{
+  color: white;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.judul2{
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.btn-template-transparent-black {
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #ffffff;
+}
+
+.modal-style{
+  color: black;
+}
+
+.content-home{
+  width: 100%;
+  height: 390px;
+}
+
+.detail{
+  text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+		background-color: rgba(255, 255, 255, 0.5);
+}
+tr.head-table {
+	background-color: #6eb752;
+  color: white;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.sip{
+  color: white;
+  text-decoration: none;
+}
+
+.info{
+  font-size: 20px;
+}
+
+.img-center-fix{
+  margin: 0px auto;
+  width: 100px;
+  height: 100px;
+
+}
+
+.text-muted{
+  color: #999999;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.text-ad{
+  text-align: center;
+}
+
+.space{
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+
+.ad{
+  background-color: white;
+}
+
+	.footer {
+		background-color: black;
+		color: white;
+		width: 70%;
+		font-family: arial;
+		font-size: 14px;
+		text-align: center;
+		margin: 0px auto;
+		padding: 10px 0px 10px 0px;
+		border-radius: 0px 0px 5px 5px;
+		clear: both;
+	}
+
+.kontak {
+      list-style:none;
+      margin: 0px auto;
+      padding: 0px;
+}
+
+.box2{
+  background: #fff;
+  border: solid 1px #e6e6e6;
+}
+
+.fa-fix{
+  font-size: 20em;
+}
+
+hr{
+  height: 1px;
+  background-color: white;
+}
+
+div.carousel{
+  margin-top: 20px;
+}
+
+.dropdown-menu{
+  width: 50px;
+}
+
+.logo-normal{
+  width: 50px;
+  height: 50px;
+}
+
+.logo-besar{
+  width: 200px;
+  height: 200px;
+}
+
+.navbar{
+  margin-bottom: -20px;
+}
+
+.center{
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+}
+
+.center2{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+}
+
+
+.parallax{
+  /* The image used */
+    background-image: url("../img/Untitled-10.jpg");
+
+    /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3{
+  /* The image used */
+    background-image: url("../img/Untitled-4.jpg");
+
+    /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.parallax2{
+  /* The image used */
+    background-image: url("../img/Untitled-11.jpg");
+
+    /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer{
+  background: #555555;
+    padding: 50px 0;
+    color: #999999;
+}
+
+#copyright {
+    background: #333;
+    color: #ccc;
+    padding: 20px 0;
+    font-size: 12px;
+}
+
+.bottom{
+  margin-bottom: 30px;
+}
+
+.uye{
+  color: white;
+}
+
+.margin{
+  margin-bottom: 100px;
+}
+
+.img-center{
+  text-align: center;
+  position: static;
+}
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+    display: none;
+    }
+  }
